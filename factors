@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ Factor numbers """
 from sys import argv
 from math import sqrt
@@ -36,4 +36,3 @@ def fac_list(ls):
 
 if len(argv) == 2:
     fac_list(open_read_file(argv[1]))
-Fo
